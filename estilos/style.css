@@ -14,7 +14,7 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #0A0F0F;
     height: 100vh;
     width: 100vw;
 }
@@ -31,11 +31,11 @@ section#login {
     left: 50%;
     overflow: hidden;
 
-    background-color: white;
+    background-color: #1A1A1D;
     width: 260px;
     height: 510px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.696);
+    box-shadow: 0px 0px 10px rgba(57, 255, 20, 0.3);
 
     transform: translate(-50%, -50%);
     transition: width 0.5s, height 0.5s;
@@ -44,7 +44,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/pexels-markusspiske-1089438.jpg) no-repeat;
+    background: #000 url(../imagens/pexels-markusspiske-1089438.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
@@ -53,11 +53,13 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+    color: #B0BEC5;
 }
 
 div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
+    color: #39FF14;
 }
 
 div#formulario > p {
@@ -65,8 +67,8 @@ div#formulario > p {
 }
 
 form > div.campo {
-    background-color: #5f2c82;
-    border: 2px solid #5f2c82;
+    background-color: transparent;
+    border: 2px solid #39FF14;
     display: block;
     width: 100%;
     height: 40px;
@@ -79,7 +81,7 @@ div.campo > label {
 } 
 
 div.campo > span {
-    color: white;
+    color: #39FF14;
     /*background-color: black;*/
     font-size: 2em;
     width: 40px;
@@ -87,10 +89,11 @@ div.campo > span {
 }
 
 div.campo > input {
-    background-color: #49cfcd;
+    background-color: #121212;
+    color: #E0F2F1;
     font-size: 1em;
     width: calc(100% - 45px);
-    height: 100%;
+    height: 90%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
@@ -98,7 +101,7 @@ div.campo > input {
 }
 
 div.campo > input:focus-within {
-    background-color: white;
+    background-color: #1A1A1D;
     border: none;
 }
 
@@ -107,15 +110,15 @@ form > input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 35px;
-    background-color: #49a09d;
-    color: white;
+    background-color: #2ECC71;
+    color: #1A1A1D;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 form > input[type=submit]:hover {
-    background-color: #2d6462;
+    background-color: #28B463;
 }
 
 form > a.botao {
@@ -126,15 +129,16 @@ form > a.botao {
     height: 30px;
     padding-top: 5px;
     margin-top: 5px;
-    background-color: white;
-    color: #2d6462;
-    border: 1px solid #49a09d;
+    background-color: transparent;
+    color: #39FF14;
+    border: 1px solid #39FF14;
     border-radius: 7px;
     text-decoration: none;
 }
 
 form > a.botao:hover {
-    background-color: #6cd3cf;
+    background-color: #1A1A1D;
+    color: #66FFB2;
 }
 
 form > a.botao > i {
